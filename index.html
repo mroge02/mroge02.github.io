@@ -1,8 +1,24 @@
 <html>
 <head>My Back Pages</head>
 
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<script>
+    MathJax = {
+      tex: {
+        inlineMath: [              // start/end delimiter pairs for in-line math
+          ['$', '$'],
+          ['\\(', '\\)']
+        ]
+       }
+      };
+  </script>
+
+
 <body>
-Hello World
+Hello World! $x^2-3x+2=0.
 <p>
 <iframe src="https://www.wolframcloud.com/obj/5d1d7197-96d9-4bc5-822e-e7d3523a1209?_embed=iframe" width="600" height="800"></iframe>
 </body>
